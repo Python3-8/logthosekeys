@@ -26,7 +26,6 @@ $ python3 -m pip install -r LogThoseKeys/requirements.txt
 This should download LogThoseKeys and install all its requirements, and you're
 all set, that easily!
 
-
 ## Run
 
 To run LogThoseKeys, navigate to the same folder where you cloned the
@@ -101,4 +100,9 @@ followed all these steps.
 
 If you're like me and you want to hack your mom, that's quite easy. All you
 have to do is run the server, change the client file, run it on your victim's
-computer, and voilà! First, run the server program on your computer. Next, edit
+computer, and voilà! First, run the server program on your computer. Next,
+update the client connection address to connect to your server. You're all set!
+All you have to do now is download the client file on your victim's (again,
+whose consent you must have) computer and run it after installing the required
+dependencies (`requests` and `pynput`). This should start sending information
+on all keystrokes of the client to the server hosted on your computer.
